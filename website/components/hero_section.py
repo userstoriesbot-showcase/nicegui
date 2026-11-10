@@ -18,7 +18,7 @@ def create() -> None:
         with ui.column(align_items='center').classes('reveal'):
             ui.html(svg.HAPPY_FACE_SVG, sanitize=False) \
                 .classes(f'hero-mascot size-40 stroke-[{d.BLUE}] stroke-2 mb-8')
-            ui.markdown(t('Meet the *NiceGUI*.')) \
+            ui.markdown(t('Meet the *NiceGUI* today.')) \
                 .classes(f'{d.TEXT_HERO} font-semibold tracking-tighter leading-none [&_em]:not-italic [&_em]:{d.TEXT_BLUE} {d.TEXT_PRIMARY} -mb-2') \
                 .props('role=heading aria-level=1')
             ui.markdown(t('''
